@@ -8,6 +8,21 @@
 
 To run the example project; clone the repo, and run `pod install` from the Example directory first.
 
+### API
+
+``` objc
+@interface iOSDetector : NSObject
+
++ (BOOL)isPhone;
+
++ (BOOL)isPad;
+
++ (NSString *)universalFile:(NSString *) fileName;
+
++ (BOOL)isJapanese;
+@end
+```
+
 ## Requirements
 
 ## Installation
