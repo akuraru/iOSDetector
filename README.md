@@ -17,11 +17,6 @@ it, simply add the following line to your Podfile:
 
     pod "iOSDetector"
 
-## Author
-
-azu, azuciao@gmail.com
-
 ## License
 
 iOSDetector is available under the MIT license. See the LICENSE file for more info.
-
