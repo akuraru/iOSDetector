@@ -12,6 +12,8 @@
 
 + (BOOL)isPad;
 
++ (BOOL)is568h;
+
 + (NSString *)universalFile:(NSString *) fileName;
 
 + (BOOL)isJapanese;

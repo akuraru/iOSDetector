@@ -29,4 +29,8 @@
 + (BOOL)isJapanese {
     return [[[NSLocale preferredLanguages] objectAtIndex:0] isEqualToString:@"ja"];
 }
+
++ (BOOL)is568h{
+    return (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone) && ([UIScreen mainScreen].bounds.size.height > 480.0f)
+}
 @end
