@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "iOSDetector"
-  s.version          = "0.1.3"
+  s.version          = "0.2.0"
   s.summary          = "Tiny Utility for iOS."
   s.homepage         = "https://github.com/azu/iOSDetector"
   s.license          = 'MIT'
