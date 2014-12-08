@@ -26,6 +26,15 @@
     return fileName;
 }
 
++ (NSString *)universalStoryboardFile:(NSString *) fileName {
+    if ([self isPhone]) {
+        return fileName;
+    } else if ([self isPad]) {
+        return [NSString stringWithFormat:@"%@_ipad", fileName];
+    }
+    return nil;
+}
+
 + (BOOL)isJapanese {
     return [[[NSLocale preferredLanguages] objectAtIndex:0] isEqualToString:@"ja"];
 }
